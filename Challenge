@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Challenge2</title>
+    
+</head>
+<body> 
+    <div class="box1">
+    
+<h2>What did the donkey say to the cat?</h2>
+<p>A.Hi Cat</p>
+<p>B.Don't kick me</p>
+<p>C.I really don't know what to say</p>
+<p>D.*Megh*</p>
+<form action="BuzzSheep.js"> Answer: <input type="text"></form>
+
+<h2>What did the cat say to donkey?</h2>
+<p>A.Hi Donkey</p>
+<p>B.I sit. I sleep</p>
+<p>C. I really don't know what to say, you too big and scary</p>
+<p>D.*Meow*</p>
+<form action="BuzzSheep.js"> Answer: <input type="text"></form>
+
+<h2>What is 3+65?</h2>
+<p>A.68</p>
+<p>B.ahhhh</p>
+<p>C.0</p>
+<p>D.67</p> 
+
+<form action="BuzzSheep.js"> Answer: <input type="text">
+</form>
+
+<hr>
+    <button onclick="myFunction()">submit</button>
+
+    </div>
+
+    <script src="BuzzSheep.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <div id="contentHere"></div>
+
+</body>
+</html>
+
+
+var score = 0;
+
+function myFunction() {
+    alert (3/3);
+}
+
+
+.box1{
+    background-color: rgb(194, 189, 189);
+    width:650px;
+    height: 800px;
+    margin-left: 160px;
+    border: 1px solid black;
+    outline-style: solid;
+    outline-width: thin;
+}
+.AnswerBox{
+    background-color: rgb(white, 148, 148);
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+    border: 1px solid black;
+    outline-style: solid;
+    outline-width: thick;
+}
+.submitbox{
+    border: 1px solid white;
+    padding: 10px;
+    height: 100px;
+}
+
